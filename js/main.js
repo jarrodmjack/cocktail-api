@@ -72,7 +72,7 @@ fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
 //   CYCLE RIGHT
 document.querySelector('#rightArrow').addEventListener('click', cycleRight)
 function cycleRight(){
-  drinkIng.innerText = ''
+  // drinkIng.innerText = ''
     if(current === max){ //testing against max value
       current = current + 0
       console.log('cannot go any further to the right')
@@ -88,7 +88,7 @@ function cycleRight(){
 // CYCLE LEFT
 document.querySelector('#leftArrow').addEventListener('click', cycleLeft)
 function cycleLeft(){
-  drinkIng.innerText = ''
+  // drinkIng.innerText = ''
   if(current === 0){
     current = current + 0
     console.log('cannot go any further to the left')
