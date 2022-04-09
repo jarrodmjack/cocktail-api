@@ -1,0 +1,105 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: rgb(164, 178, 218);
+  font-family: sans-serif;
+}
+
+img{
+  display: block;
+  height: 300px;
+  border: 3px solid black;
+}
+
+/* main layout */
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+div.picContainer{
+  width: 455px;
+  display: flex;
+  justify-content: center;
+}
+
+
+h2{
+font-size: 2rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+h4{
+  font-size: 3rem;
+}
+h5{
+  font-size: 2rem;
+}
+
+/* title/input */
+
+input{
+  font-size: 2rem;
+}
+
+/* .picContainer,
+.titleContainer,
+.mainContainer,
+.nameContainer,
+.ingContainer,
+.instContainer{
+  border: 1px solid red;
+} */
+
+/* pic/buttons */
+.picContainer{
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+button{
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:4rem 2rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+button:hover{
+  background:black; 
+  text-shadow: none;
+
+}
+
+#drinkBtn{
+  padding: 6px 13px;
+}
